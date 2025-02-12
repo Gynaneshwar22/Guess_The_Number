@@ -11,6 +11,12 @@ A fun and interactive number guessing game built using **JavaScript, DOM, HTML, 
 - Handles **invalid inputs** (e.g., letters, special characters) with a message:
   - **"Invalid Entry, please enter only a number."**
 - Interactive and user-friendly design.
+![image](https://github.com/user-attachments/assets/2237c803-a3b8-4188-846b-5932a47bf40d)
+![image](https://github.com/user-attachments/assets/001fc9a7-51fa-41bc-af77-bf2c3f3c5e5b)
+![image](https://github.com/user-attachments/assets/9042dae7-edd3-4e6f-b12c-e6d487988fae)
+![image](https://github.com/user-attachments/assets/ae48ed64-3fc2-4cc3-9d77-c89a8fee9920)
+
+
 
 ## 🛠️ Technologies Used
 - **HTML** – Structure of the game.
@@ -31,7 +37,6 @@ A fun and interactive number guessing game built using **JavaScript, DOM, HTML, 
     ├── 📄 README.md # Project Documentation
 
 
-
 ## 📌 Setup and Running the Project
 1. Clone the repository:
 git clone https://github.com/Gynaneshwar22/Guess_The_Number.git
@@ -40,6 +45,7 @@ git clone https://github.com/Gynaneshwar22/Guess_The_Number.git
 cd guess-the-number
 
 3. Open `index.html` in your browser and start playing!
+
 
 ## 👨‍💻 About the Developer
 **Gynaneshwar Sri Ramoju**   
