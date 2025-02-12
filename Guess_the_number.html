@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- adding the CSS file location , to apply changes -->
         <link rel="stylesheet" href="Guess_the_number.css"/>
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
@@ -10,24 +11,30 @@
     
     </head>
     <body>
+        <!-- creating the container -->
         <div class="container-fluid bg-container">
             <div class="row bg-white">
                 <div class="col-12">
                     <img class="guess-game-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-game-img.png"/>
+                    <!--adding the paragraph -->
                     <p class="text-center game-description">Find Out The Right Number Between 1 to 100</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-12 text-center guess-bg-container">
+                    <!--adding the heading and adding the image side to the text , for best user interaction-->
                     <h1 class="guess-heading">Guess the Number <img class="guess-number-image" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-dynamic-webapps/guess-number-img.png"/></h1>
                     <input type="text" class="user-input" id="userInput"/>
                     <div>
+                        <!--creating the Check Here button-->
                         <button class="button" onclick="userValue()">Check Here</button>
                     </div>
+                    <!-- adding the Paragraph -->
                     <p class="game-result" id="gameResult"></p>
                 </div>
             </div>
         </div>
+        <!--adding the JavaScript file to the HTML file-->
         <script type="text/javascript" src="Guess_the_number.js"></script>
     </body>
 </html>

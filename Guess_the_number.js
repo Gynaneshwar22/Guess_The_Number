@@ -1,9 +1,15 @@
+// assigning the "userInput" element to userInput variable
 let userInput=document.getElementById("userInput");
+// assigning the "gameResult" element to  gameresult variable
 let gameResult=document.getElementById("gameResult");
 
+// generating the random number upto 100
 let randomNumber=Math.ceil(Math.random()*100);
+
+// printing the random number on console
 console.log(randomNumber);
 
+// appliying the logic to guess the numbe
 function userValue(){
     let guessNumber= parseInt(userInput.value);
     if(guessNumber>randomNumber){
