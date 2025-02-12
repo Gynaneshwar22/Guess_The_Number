@@ -1,0 +1,47 @@
+
+.bg-container{
+    text-align: center;
+}
+.guess-game-image{
+    width:100vh;
+    height: 300px;
+    padding-top: 10px;
+    
+}
+.game-description{
+    font-size: 25px;
+    margin-left: 50px;
+    padding:15px;
+    
+}
+.guess-bg-container{
+    background-color: blue;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+
+}
+.guess-heading{
+    color:white;
+    font-size: 50px;
+}
+.guess-number-image{
+    height:70px;
+    width:50px;
+}
+.user-input{
+    width : 500px;
+    height: 60px;
+    margin-top: 10px;
+}
+.button{
+    background-color: aquamarine;
+    margin-top: 20px;
+    width:150px;
+    height:40px;
+    font-weight: bold;
+}
+.game-result{
+    color:white;
+    font-size: 20px;
+}
